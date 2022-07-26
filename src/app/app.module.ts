@@ -9,6 +9,7 @@ import { UserComponent } from './user/user.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './home/home.component';
+import { LogoutComponent } from './logout/logout.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HomeComponent } from './home/home.component';
     RegisterComponent,
     UserComponent,
     HomeComponent,
+    LogoutComponent,
 
   ],
   imports: [
