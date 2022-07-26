@@ -29,7 +29,7 @@ obj:any
       confirmPassword: this.registerForm.value.confirmPassword,
     }
     this.userService.register(this.obj).subscribe((data) => {
-      console.log(data)
+      // console.log(data)
       console.log('Đăng ký thành công');
       this.registerForm.reset();
       this.router.navigate(['/login']);
