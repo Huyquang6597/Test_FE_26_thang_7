@@ -7,6 +7,11 @@ export interface UserToken {
   password: string;
   confirmPassword?: string;
   accessToken?: string;
-  // enabled?: boolean;
+  firstName?: string;
+  lastName?: string;
+  gender?: string;
+  email?: string;
+  phoneNumber?: string;
+  enabled?: boolean;
   roles: Role[];
 }

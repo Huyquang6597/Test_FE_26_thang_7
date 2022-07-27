@@ -6,4 +6,10 @@ export interface User {
   username?: string;
   password?: string;
   confirmPassword?: string;
+  name?: string;
+  email?: string;
+  phoneNumber?: string;
+  enabled?: boolean;
+  roles?: [Role];
+  imageUrls?: string;
 }
